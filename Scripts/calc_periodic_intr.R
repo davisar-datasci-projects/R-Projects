@@ -12,6 +12,6 @@ calc_periodic_interest <- function(future_value, present_value, n)
 }
 
 # Output
-calculate_interest <- calc_periods_appreciation(200000, 100000, 9)
+calculate_interest <- calc_periodic_interest(200000, 100000, 9)
 
 calculate_interest
