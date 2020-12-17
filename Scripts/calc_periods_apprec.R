@@ -12,6 +12,6 @@ calc_periods_appreciation <- function(future_value, present_value, interest_rate
 }
 
 # Output
-estimatePeriods <- calc_periods_appreciation(200000, 100000, 0.03)
+prds <- calc_periods_appreciation(200000, 100000, 0.03)
 
-estimatePeriods
+prds
