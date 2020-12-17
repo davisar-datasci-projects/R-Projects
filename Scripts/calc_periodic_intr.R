@@ -12,6 +12,6 @@ calc_periodic_interest <- function(future_value, present_value, n)
 }
 
 # Output
-calculate_interest <- calc_periodic_interest(200000, 100000, 9)
+intrst <- calc_periodic_interest(200000, 100000, 9)
 
-calculate_interest
+intrst
