@@ -5,7 +5,7 @@
 calc_periodic_interest <- function(future_value, present_value, n)
 {
   # Processing
-  interest_rate <- future_value / present_value^(1 / n) - 1
+  interest_rate <- (future_value / present_value)^(1 / n) - 1
 
   # Return the interest rate necessary to reach provided investment goal.
   interest_rate
